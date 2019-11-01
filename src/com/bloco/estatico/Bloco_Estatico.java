@@ -6,8 +6,9 @@ public class Bloco_Estatico {
 	
 	static 
 	{
-		int a = 1;
-		x = x + a;
+		int a = 2;
+		int b = 1;
+		x = a + a;
 	}
 	
 	public static void printValor()
