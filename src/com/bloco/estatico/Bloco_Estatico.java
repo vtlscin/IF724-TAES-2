@@ -3,6 +3,7 @@ package com.bloco.estatico;
 public class Bloco_Estatico {
 	
 	static int x;
+	static int a;
 	
 	static 
 	{
@@ -11,14 +12,14 @@ public class Bloco_Estatico {
 		x = a + a;
 	}
 	
-	public static void printValor()
+	public static void printValor(int a)
 	{
 		System.out.println(x);
 	}
 	
 	public static void main(String[] args) 
 	{
-		printValor();
+		printValor(a);
 	}
 
 }
