@@ -11,10 +11,9 @@ public class Bloco_Estatico {
 		int a = 2;
 		x = a + a;
 	}
-	
-	public static void printValor(int a)
+	public static void printValor(int b)
 	{
-		System.out.println(x);
+		System.out.println(x + b);
 	}
 	
 	public static void main(String[] args) 
